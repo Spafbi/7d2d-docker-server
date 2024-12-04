@@ -103,7 +103,7 @@ To run multiple servers, use the `-n` flag to specify the server number and the 
 ~/7d2d-docker-server/run-7d2d-server.sh -n 2 -c my-other-7d2d-server
 ```
 > Note: The server number determines the port assignments. The first server uses port 26900, the second server uses port 26903, and so on. Ensure each server has a unique Docker container name.
-#### Additional available arguments
+
 #### Additional available arguments
 The `run-7d2d-server.sh` script accepts several arguments to customize the server setup:
 
