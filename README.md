@@ -149,7 +149,6 @@ Assuming you have a Linux host, Docker installed, and your user is a member of t
 $ cd ~
 $ git clone https://github.com/spafbi/7d2d-docker-server.git ~/7d2d-docker-server
 $ cd ~/7d2d-docker-server
-$ 
 $ chmod +x ~/7d2d-docker-server/*.sh
 $ ~/7d2d-docker-server/create-steam-account.sh
 $ docker build -t 7d2d-server .
